@@ -1,5 +1,13 @@
 # FakeNet
 
+TODO
+
+* Create table for posting and replies
+* Create API for creating post
+* Create API for replying to post
+* Create prompt API for generating posts and replies based on user profile and subject
+
+
 ## Schema
 ```json
 {
