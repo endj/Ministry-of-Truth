@@ -24,7 +24,7 @@ TODO
 * Create prompt API for generating posts and replies based on user profile and subject
 
 
-## Schema
+## User Profile Traits Schema
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
