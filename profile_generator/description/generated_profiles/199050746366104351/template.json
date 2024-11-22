@@ -1,0 +1,52 @@
+{
+  "name": "traditional",
+  "age": 18,
+  "occupation": "artist",
+  "personality": {
+    "type": "adventurous",
+    "humor_style": "dry",
+    "social_preference": "group-oriented"
+  },
+  "interests": {
+    "primary_interests": [
+      "cooking"
+    ],
+    "secondary_interests": [
+      "reading",
+      "traveling",
+      "photography",
+      "gaming"
+    ],
+    "preferred_topics": [
+      "philosophy",
+      "current events"
+    ],
+    "disliked_topics": [
+      "politics"
+    ]
+  },
+  "background": {
+    "hometown": "Paris",
+    "education_level": "advanced",
+    "values": [
+      "individuality",
+      "tradition"
+    ]
+  },
+  "communication_style": {
+    "favorite_words": [
+      "cool"
+    ],
+    "formality_level": "semi-formal",
+    "conversation_tendency": "talker"
+  },
+  "social_connections": {
+    "groups": [
+      "Book Club",
+      "Science Enthusiasts",
+      "Art Collective",
+      "Nature Lovers"
+    ],
+    "friendliness_rating": "very friendly"
+  }
+}

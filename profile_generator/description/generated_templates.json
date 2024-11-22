@@ -1,0 +1,4187 @@
+[
+  {
+    "name": "regional",
+    "age": 20,
+    "occupation": "teacher",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "sports",
+        "technology",
+        "cooking"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "photography",
+        "reading"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "basic",
+      "values": [
+        "individuality",
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 28,
+    "occupation": "gardener",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "dry",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "cooking",
+        "art"
+      ],
+      "secondary_interests": [
+        "gaming"
+      ],
+      "preferred_topics": [
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "advanced",
+      "values": [
+        "tradition",
+        "community",
+        "innovation",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging",
+        "cool"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 40,
+    "occupation": "writer",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "art",
+        "technology"
+      ],
+      "secondary_interests": [
+        "music",
+        "photography",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "basic",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 44,
+    "occupation": "artist",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "art",
+        "history",
+        "technology",
+        "cooking"
+      ],
+      "secondary_interests": [
+        "photography",
+        "gaming",
+        "traveling",
+        "music",
+        "reading"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "community",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "challenging",
+        "amazing"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 42,
+    "occupation": "gardener",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "silly",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "history",
+        "art",
+        "sports"
+      ],
+      "secondary_interests": [
+        "reading",
+        "photography"
+      ],
+      "preferred_topics": [
+        "current events",
+        "science fiction",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "specialized",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 38,
+    "occupation": "teacher",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "sarcastic",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "technology",
+        "art",
+        "sports",
+        "history"
+      ],
+      "secondary_interests": [
+        "reading",
+        "gaming",
+        "photography",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "specialized",
+      "values": [
+        "community",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 55,
+    "occupation": "gardener",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "history",
+        "technology"
+      ],
+      "secondary_interests": [
+        "reading",
+        "photography",
+        "gaming",
+        "music",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "amazing",
+        "fascinating"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 35,
+    "occupation": "gardener",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "photography",
+        "music",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "advanced",
+      "values": [
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging",
+        "cool"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 35,
+    "occupation": "artist",
+    "personality": {
+      "type": "creative",
+      "humor_style": "silly",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking"
+      ],
+      "secondary_interests": [
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "specialized",
+      "values": [
+        "individuality",
+        "tradition",
+        "community",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 49,
+    "occupation": "gardener",
+    "personality": {
+      "type": "creative",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "history"
+      ],
+      "secondary_interests": [
+        "music",
+        "traveling",
+        "photography",
+        "reading",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "specialized",
+      "values": [
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Art Collective",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 32,
+    "occupation": "engineer",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "dry",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "sports"
+      ],
+      "secondary_interests": [
+        "reading"
+      ],
+      "preferred_topics": [
+        "current events",
+        "science fiction",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "community",
+        "individuality",
+        "innovation",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 54,
+    "occupation": "writer",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "dry",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "technology",
+        "sports",
+        "history",
+        "art"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "photography",
+        "gaming",
+        "music",
+        "reading"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "specialized",
+      "values": [
+        "individuality",
+        "tradition",
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 47,
+    "occupation": "artist",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "technology",
+        "history",
+        "sports"
+      ],
+      "secondary_interests": [
+        "reading",
+        "photography",
+        "traveling",
+        "gaming",
+        "music"
+      ],
+      "preferred_topics": [
+        "current events",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "advanced",
+      "values": [
+        "community",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "amazing",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 35,
+    "occupation": "teacher",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "history"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "photography"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "advanced",
+      "values": [
+        "tradition",
+        "individuality",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "cool",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Book Club",
+        "Art Collective"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 18,
+    "occupation": "gardener",
+    "personality": {
+      "type": "creative",
+      "humor_style": "witty",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "art",
+        "technology",
+        "sports"
+      ],
+      "secondary_interests": [
+        "music",
+        "gaming",
+        "traveling",
+        "reading",
+        "photography"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "community",
+        "individuality",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "fascinating"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 44,
+    "occupation": "artist",
+    "personality": {
+      "type": "creative",
+      "humor_style": "dry",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "sports",
+        "art"
+      ],
+      "secondary_interests": [
+        "reading",
+        "photography",
+        "music",
+        "gaming",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "specialized",
+      "values": [
+        "individuality",
+        "tradition",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "cool",
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 43,
+    "occupation": "artist",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "witty",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "cooking",
+        "art",
+        "technology"
+      ],
+      "secondary_interests": [
+        "music"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Art Collective",
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 50,
+    "occupation": "engineer",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology"
+      ],
+      "secondary_interests": [
+        "traveling"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "basic",
+      "values": [
+        "community",
+        "individuality",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 24,
+    "occupation": "artist",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "technology",
+        "sports",
+        "history",
+        "art"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "music",
+        "reading"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "advanced",
+      "values": [
+        "community",
+        "tradition",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "challenging",
+        "fascinating",
+        "amazing"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 27,
+    "occupation": "teacher",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "specialized",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "cool"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Science Enthusiasts",
+        "Art Collective"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 46,
+    "occupation": "teacher",
+    "personality": {
+      "type": "creative",
+      "humor_style": "witty",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "history"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "reading",
+        "traveling",
+        "photography"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "amazing"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Science Enthusiasts",
+        "Nature Lovers",
+        "Book Club"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 41,
+    "occupation": "engineer",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "witty",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "history",
+        "technology"
+      ],
+      "secondary_interests": [
+        "photography",
+        "music",
+        "traveling",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "cool",
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 50,
+    "occupation": "gardener",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "silly",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "cooking",
+        "art",
+        "history",
+        "technology"
+      ],
+      "secondary_interests": [
+        "reading"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "advanced",
+      "values": [
+        "community",
+        "tradition",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 42,
+    "occupation": "engineer",
+    "personality": {
+      "type": "creative",
+      "humor_style": "witty",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "history",
+        "technology"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "gaming",
+        "photography"
+      ],
+      "preferred_topics": [
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "innovation",
+        "community",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "fascinating",
+        "challenging",
+        "cool"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club",
+        "Nature Lovers",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 61,
+    "occupation": "artist",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "cooking",
+        "history",
+        "art"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "reading",
+        "traveling",
+        "music",
+        "photography"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "innovation",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 42,
+    "occupation": "engineer",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "cooking",
+        "sports"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "gaming",
+        "music"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "advanced",
+      "values": [
+        "individuality",
+        "innovation",
+        "tradition",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating",
+        "cool"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 40,
+    "occupation": "engineer",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "technology",
+        "art"
+      ],
+      "secondary_interests": [
+        "music",
+        "traveling",
+        "reading",
+        "photography"
+      ],
+      "preferred_topics": [
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "specialized",
+      "values": [
+        "individuality",
+        "community",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "cool",
+        "amazing"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Art Collective"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 32,
+    "occupation": "artist",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "sarcastic",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology"
+      ],
+      "secondary_interests": [
+        "gaming"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "individuality",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "cool",
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 42,
+    "occupation": "teacher",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "history"
+      ],
+      "secondary_interests": [
+        "photography",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "basic",
+      "values": [
+        "community",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 55,
+    "occupation": "gardener",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "silly",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "cooking",
+        "sports",
+        "history"
+      ],
+      "secondary_interests": [
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "advanced",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "challenging",
+        "amazing",
+        "fascinating"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 59,
+    "occupation": "artist",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "witty",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "art"
+      ],
+      "secondary_interests": [
+        "reading",
+        "gaming",
+        "traveling",
+        "photography",
+        "music"
+      ],
+      "preferred_topics": [
+        "current events",
+        "science fiction",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "community",
+        "individuality",
+        "tradition",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "challenging",
+        "amazing",
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Book Club",
+        "Art Collective"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 39,
+    "occupation": "artist",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "technology"
+      ],
+      "secondary_interests": [
+        "music"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "basic",
+      "values": [
+        "individuality",
+        "innovation",
+        "community",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "amazing",
+        "cool",
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Nature Lovers",
+        "Science Enthusiasts",
+        "Art Collective"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 22,
+    "occupation": "artist",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "witty",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "sports",
+        "art",
+        "technology",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography",
+        "reading"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "individuality",
+        "tradition",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "challenging",
+        "cool"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 50,
+    "occupation": "gardener",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "sports",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "individuality",
+        "tradition",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Nature Lovers",
+        "Book Club"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 62,
+    "occupation": "teacher",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "silly",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "technology",
+        "art",
+        "sports"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "music"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "advanced",
+      "values": [
+        "tradition",
+        "innovation",
+        "community",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Book Club",
+        "Art Collective",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 21,
+    "occupation": "writer",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "technology",
+        "sports",
+        "art",
+        "history"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "traveling",
+        "reading",
+        "music"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "advanced",
+      "values": [
+        "tradition",
+        "community",
+        "individuality",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 35,
+    "occupation": "artist",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "art"
+      ],
+      "secondary_interests": [
+        "music",
+        "photography",
+        "gaming",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "individuality",
+        "innovation",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Art Collective"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 42,
+    "occupation": "teacher",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "sarcastic",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "technology",
+        "cooking",
+        "history"
+      ],
+      "secondary_interests": [
+        "music",
+        "gaming",
+        "reading",
+        "photography",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "basic",
+      "values": [
+        "innovation",
+        "community",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "cool",
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 62,
+    "occupation": "artist",
+    "personality": {
+      "type": "creative",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking"
+      ],
+      "secondary_interests": [
+        "gaming"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "advanced",
+      "values": [
+        "tradition",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 42,
+    "occupation": "gardener",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "history"
+      ],
+      "secondary_interests": [
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "basic",
+      "values": [
+        "individuality",
+        "tradition",
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "cool",
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Art Collective",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 27,
+    "occupation": "engineer",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "silly",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "history",
+        "art",
+        "technology"
+      ],
+      "secondary_interests": [
+        "music",
+        "photography",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "basic",
+      "values": [
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Nature Lovers",
+        "Book Club"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 29,
+    "occupation": "artist",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "history"
+      ],
+      "secondary_interests": [
+        "reading"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "advanced",
+      "values": [
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Nature Lovers",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 29,
+    "occupation": "gardener",
+    "personality": {
+      "type": "creative",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "history",
+        "sports",
+        "art"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "reading",
+        "music",
+        "photography",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "tradition",
+        "individuality",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "cool",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Nature Lovers",
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 46,
+    "occupation": "writer",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "dry",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "art"
+      ],
+      "secondary_interests": [
+        "music"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "specialized",
+      "values": [
+        "community",
+        "individuality",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "cool",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Art Collective",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 63,
+    "occupation": "gardener",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "silly",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "cooking",
+        "sports",
+        "technology",
+        "history"
+      ],
+      "secondary_interests": [
+        "music",
+        "traveling",
+        "reading",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "specialized",
+      "values": [
+        "innovation",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "amazing"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 62,
+    "occupation": "writer",
+    "personality": {
+      "type": "creative",
+      "humor_style": "dry",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography",
+        "traveling",
+        "reading",
+        "gaming",
+        "music"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "community",
+        "individuality",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "amazing"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 59,
+    "occupation": "artist",
+    "personality": {
+      "type": "creative",
+      "humor_style": "witty",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "art",
+        "sports",
+        "history",
+        "technology"
+      ],
+      "secondary_interests": [
+        "photography",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "advanced",
+      "values": [
+        "community",
+        "individuality",
+        "tradition",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "amazing"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Art Collective",
+        "Science Enthusiasts",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 56,
+    "occupation": "engineer",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "witty",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "sports",
+        "technology",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Book Club",
+        "Nature Lovers",
+        "Art Collective"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 44,
+    "occupation": "teacher",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking"
+      ],
+      "secondary_interests": [
+        "music",
+        "reading",
+        "traveling",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "advanced",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating",
+        "cool"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 41,
+    "occupation": "engineer",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "dry",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking"
+      ],
+      "secondary_interests": [
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "specialized",
+      "values": [
+        "community",
+        "tradition",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 31,
+    "occupation": "teacher",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "art"
+      ],
+      "secondary_interests": [
+        "reading",
+        "music",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Science Enthusiasts",
+        "Art Collective"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 32,
+    "occupation": "engineer",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "history",
+        "technology",
+        "art"
+      ],
+      "secondary_interests": [
+        "reading",
+        "music",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "community",
+        "individuality",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 31,
+    "occupation": "engineer",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "dry",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "cooking",
+        "sports"
+      ],
+      "secondary_interests": [
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "cool",
+        "fascinating",
+        "amazing"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Book Club"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 63,
+    "occupation": "artist",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "dry",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "music",
+        "photography"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "specialized",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Art Collective",
+        "Nature Lovers",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 53,
+    "occupation": "gardener",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "art"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "cool",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Art Collective",
+        "Science Enthusiasts",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 39,
+    "occupation": "gardener",
+    "personality": {
+      "type": "creative",
+      "humor_style": "dry",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "sports",
+        "history",
+        "art",
+        "cooking"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "traveling",
+        "reading",
+        "photography"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "advanced",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Science Enthusiasts",
+        "Art Collective"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 64,
+    "occupation": "writer",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "art",
+        "history",
+        "technology"
+      ],
+      "secondary_interests": [
+        "gaming"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "advanced",
+      "values": [
+        "tradition",
+        "individuality",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Book Club",
+        "Nature Lovers",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 60,
+    "occupation": "writer",
+    "personality": {
+      "type": "creative",
+      "humor_style": "silly",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "technology"
+      ],
+      "secondary_interests": [
+        "music",
+        "gaming",
+        "traveling",
+        "photography"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "basic",
+      "values": [
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Art Collective",
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 55,
+    "occupation": "writer",
+    "personality": {
+      "type": "creative",
+      "humor_style": "dry",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "sports"
+      ],
+      "secondary_interests": [
+        "photography",
+        "traveling",
+        "gaming",
+        "reading"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "individuality",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "fascinating",
+        "challenging",
+        "cool"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Nature Lovers",
+        "Science Enthusiasts",
+        "Art Collective"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 58,
+    "occupation": "engineer",
+    "personality": {
+      "type": "creative",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "technology",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography",
+        "gaming",
+        "traveling",
+        "reading",
+        "music"
+      ],
+      "preferred_topics": [
+        "current events",
+        "science fiction",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "specialized",
+      "values": [
+        "community",
+        "innovation",
+        "individuality",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "challenging",
+        "cool"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Nature Lovers",
+        "Science Enthusiasts",
+        "Art Collective"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 58,
+    "occupation": "writer",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography",
+        "reading",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "specialized",
+      "values": [
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "challenging"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Art Collective",
+        "Science Enthusiasts",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 50,
+    "occupation": "engineer",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "sarcastic",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "sports",
+        "technology"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "reading",
+        "music",
+        "gaming",
+        "photography"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "individuality",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Art Collective"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 65,
+    "occupation": "engineer",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "sarcastic",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "history",
+        "art"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "advanced",
+      "values": [
+        "individuality",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Nature Lovers",
+        "Science Enthusiasts",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 63,
+    "occupation": "gardener",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "technology",
+        "history",
+        "art"
+      ],
+      "secondary_interests": [
+        "gaming"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "specialized",
+      "values": [
+        "innovation",
+        "tradition",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating",
+        "amazing",
+        "cool"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Nature Lovers",
+        "Art Collective",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 19,
+    "occupation": "writer",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "dry",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "history"
+      ],
+      "secondary_interests": [
+        "photography",
+        "music",
+        "reading"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "fascinating",
+        "challenging"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Art Collective",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 23,
+    "occupation": "gardener",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "silly",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "sports",
+        "technology"
+      ],
+      "secondary_interests": [
+        "reading",
+        "traveling",
+        "music",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "current events",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "basic",
+      "values": [
+        "individuality",
+        "community",
+        "innovation",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "cool",
+        "fascinating"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective",
+        "Nature Lovers",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 22,
+    "occupation": "engineer",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "sarcastic",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "art"
+      ],
+      "secondary_interests": [
+        "reading"
+      ],
+      "preferred_topics": [
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "individuality",
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 43,
+    "occupation": "gardener",
+    "personality": {
+      "type": "creative",
+      "humor_style": "silly",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "sports",
+        "cooking"
+      ],
+      "secondary_interests": [
+        "photography",
+        "traveling",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "current events",
+        "philosophy",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "advanced",
+      "values": [
+        "individuality",
+        "community",
+        "innovation",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "fascinating",
+        "amazing"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 19,
+    "occupation": "artist",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "sarcastic",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "technology",
+        "history"
+      ],
+      "secondary_interests": [
+        "photography"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "innovation",
+        "community",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 63,
+    "occupation": "artist",
+    "personality": {
+      "type": "adventurous",
+      "humor_style": "dry",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "history",
+        "technology",
+        "cooking"
+      ],
+      "secondary_interests": [
+        "reading",
+        "music",
+        "gaming",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "mountains",
+      "education_level": "specialized",
+      "values": [
+        "tradition",
+        "community",
+        "individuality",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "fascinating",
+        "amazing",
+        "challenging"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Book Club",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "fantasy",
+    "age": 41,
+    "occupation": "writer",
+    "personality": {
+      "type": "analytical",
+      "humor_style": "sarcastic",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "history",
+        "art",
+        "cooking",
+        "technology"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "photography",
+        "traveling",
+        "music",
+        "reading"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "science fiction",
+        "current events"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "advanced",
+      "values": [
+        "innovation",
+        "community",
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Nature Lovers",
+        "Science Enthusiasts",
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "traditional",
+    "age": 53,
+    "occupation": "teacher",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "dry",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "sports",
+        "history",
+        "art"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "music",
+        "photography",
+        "reading",
+        "gaming"
+      ],
+      "preferred_topics": [
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "New York",
+      "education_level": "basic",
+      "values": [
+        "individuality",
+        "community",
+        "innovation"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "amazing",
+        "cool"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Art Collective"
+      ],
+      "friendliness_rating": "very friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 57,
+    "occupation": "writer",
+    "personality": {
+      "type": "creative",
+      "humor_style": "witty",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "sports",
+        "cooking",
+        "technology",
+        "art"
+      ],
+      "secondary_interests": [
+        "reading",
+        "traveling",
+        "photography",
+        "music"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "economics",
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "basic",
+      "values": [
+        "tradition"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "fascinating",
+        "cool"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "balanced"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Nature Lovers",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 50,
+    "occupation": "engineer",
+    "personality": {
+      "type": "introverted",
+      "humor_style": "dry",
+      "social_preference": "lone wolf"
+    },
+    "interests": {
+      "primary_interests": [
+        "art",
+        "technology",
+        "history",
+        "cooking",
+        "sports"
+      ],
+      "secondary_interests": [
+        "traveling",
+        "reading",
+        "gaming",
+        "photography",
+        "music"
+      ],
+      "preferred_topics": [
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "specialized",
+      "values": [
+        "community",
+        "innovation",
+        "tradition",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "cool",
+        "amazing",
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Science Enthusiasts",
+        "Art Collective"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 50,
+    "occupation": "teacher",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "witty",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "history"
+      ],
+      "secondary_interests": [
+        "reading"
+      ],
+      "preferred_topics": [
+        "philosophy"
+      ],
+      "disliked_topics": [
+        "politics",
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "small village",
+      "education_level": "basic",
+      "values": [
+        "tradition",
+        "innovation",
+        "community"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating",
+        "amazing"
+      ],
+      "formality_level": "semi-formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Science Enthusiasts",
+        "Art Collective",
+        "Book Club"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  },
+  {
+    "name": "modern",
+    "age": 43,
+    "occupation": "writer",
+    "personality": {
+      "type": "creative",
+      "humor_style": "dry",
+      "social_preference": "social butterfly"
+    },
+    "interests": {
+      "primary_interests": [
+        "cooking",
+        "sports",
+        "technology",
+        "art"
+      ],
+      "secondary_interests": [
+        "music",
+        "gaming",
+        "photography",
+        "reading"
+      ],
+      "preferred_topics": [
+        "science fiction",
+        "philosophy",
+        "current events"
+      ],
+      "disliked_topics": [
+        "economics"
+      ]
+    },
+    "background": {
+      "hometown": "Paris",
+      "education_level": "advanced",
+      "values": [
+        "community",
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "amazing",
+        "fascinating",
+        "challenging",
+        "cool"
+      ],
+      "formality_level": "casual",
+      "conversation_tendency": "listener"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Nature Lovers",
+        "Art Collective",
+        "Science Enthusiasts"
+      ],
+      "friendliness_rating": "selectively friendly"
+    }
+  },
+  {
+    "name": "regional",
+    "age": 33,
+    "occupation": "teacher",
+    "personality": {
+      "type": "extroverted",
+      "humor_style": "witty",
+      "social_preference": "group-oriented"
+    },
+    "interests": {
+      "primary_interests": [
+        "history",
+        "art",
+        "cooking",
+        "technology"
+      ],
+      "secondary_interests": [
+        "gaming",
+        "photography",
+        "reading",
+        "traveling"
+      ],
+      "preferred_topics": [
+        "current events",
+        "science fiction"
+      ],
+      "disliked_topics": [
+        "politics"
+      ]
+    },
+    "background": {
+      "hometown": "Tokyo",
+      "education_level": "advanced",
+      "values": [
+        "individuality"
+      ]
+    },
+    "communication_style": {
+      "favorite_words": [
+        "challenging",
+        "fascinating"
+      ],
+      "formality_level": "formal",
+      "conversation_tendency": "talker"
+    },
+    "social_connections": {
+      "groups": [
+        "Book Club",
+        "Nature Lovers"
+      ],
+      "friendliness_rating": "reserved"
+    }
+  }
+]

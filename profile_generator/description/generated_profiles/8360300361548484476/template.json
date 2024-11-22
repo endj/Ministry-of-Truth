@@ -1,0 +1,52 @@
+{
+  "name": "traditional",
+  "age": 52,
+  "occupation": "teacher",
+  "personality": {
+    "type": "adventurous",
+    "humor_style": "dry",
+    "social_preference": "lone wolf"
+  },
+  "interests": {
+    "primary_interests": [
+      "cooking",
+      "sports",
+      "history",
+      "technology"
+    ],
+    "secondary_interests": [
+      "music",
+      "gaming"
+    ],
+    "preferred_topics": [
+      "science fiction"
+    ],
+    "disliked_topics": [
+      "economics"
+    ]
+  },
+  "background": {
+    "hometown": "Paris",
+    "education_level": "specialized",
+    "values": [
+      "innovation"
+    ]
+  },
+  "communication_style": {
+    "favorite_words": [
+      "cool",
+      "fascinating",
+      "challenging",
+      "amazing"
+    ],
+    "formality_level": "semi-formal",
+    "conversation_tendency": "talker"
+  },
+  "social_connections": {
+    "groups": [
+      "Art Collective",
+      "Nature Lovers"
+    ],
+    "friendliness_rating": "very friendly"
+  }
+}

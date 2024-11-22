@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "number_of_profiles": 100
+  },
+  "traits": {
+    "demographics": {
+      "name_patterns": ["traditional", "modern", "fantasy", "regional"],
+      "age_range": [18, 65],
+      "occupations": ["engineer", "artist", "teacher", "gardener", "writer"]
+    },
+    "personality": {
+      "types": ["introverted", "extroverted", "analytical", "creative", "adventurous"],
+      "humor_styles": ["sarcastic", "dry", "silly", "witty"],
+      "social_preferences": ["lone wolf", "social butterfly", "group-oriented"]
+    },
+    "interests": {
+      "primary": ["technology", "art", "history", "sports", "cooking"],
+      "secondary": ["gaming", "traveling", "reading", "photography", "music"],
+      "preferred_topics": ["philosophy", "science fiction", "current events"],
+      "disliked_topics": ["politics", "economics"]
+    },
+    "background": {
+      "hometowns": ["New York", "Paris", "Tokyo", "small village", "mountains"],
+      "education_levels": ["basic", "advanced", "specialized"],
+      "values": ["innovation", "tradition", "community", "individuality"]
+    },
+    "communication": {
+      "favorite_words": ["amazing", "challenging", "cool", "fascinating"],
+      "formality_levels": ["casual", "formal", "semi-formal"],
+      "conversation_tendencies": ["listener", "talker", "balanced"]
+    },
+    "social": {
+      "groups": ["Book Club", "Science Enthusiasts", "Nature Lovers", "Art Collective"],
+      "friendliness_ratings": ["very friendly", "selectively friendly", "reserved"]
+    }
+  }
+}
+
