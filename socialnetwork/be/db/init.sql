@@ -8,14 +8,7 @@ CREATE TABLE IF NOT EXISTS user_profiles (
 CREATE TABLE IF NOT EXISTS user_templates (
     id SERIAL PRIMARY KEY,
     user_profile_id INT NOT NULL,
-    name TEXT NOT NULL,
-    age INT,
-    occupation TEXT,
-    personality JSONB,
-    interests JSONB,
-    background JSONB,
-    communication_style JSONB,
-    social_connections JSONB,
+    template JSONB,
     CONSTRAINT fk_user_profiles
         FOREIGN KEY (user_profile_id)
         REFERENCES user_profiles (id)

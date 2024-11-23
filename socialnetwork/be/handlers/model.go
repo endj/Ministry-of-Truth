@@ -1,18 +1,26 @@
 package handlers
 
-import "encoding/json"
-
-type UserProfileRequest struct {
-	ExternalID         int64           `json:"external_id"`
-	Name               string          `json:"name"`
-	Info               string          `json:"info"`
-	Age                int             `json:"age"`
-	Occupation         string          `json:"occupation"`
-	Personality        json.RawMessage `json:"personality"`
-	Interests          json.RawMessage `json:"interests"`
-	Background         json.RawMessage `json:"background"`
-	CommunicationStyle json.RawMessage `json:"communication_style"`
-	SocialConnections  json.RawMessage `json:"social_connections"`
+type UserFullProfileRequest struct {
+	ExternalID            int64    `json:"external_id"`
+	Name                  string   `json:"name"`
+	Info                  string   `json:"info"`
+	Age                   int      `json:"age"`
+	Occupation            string   `json:"occupation"`
+	PersonalityType       string   `json:"personality_type"`
+	PersonalityHumor      string   `json:"personality_humor_style"`
+	PersonalitySocial     string   `json:"personality_social_preference"`
+	InterestsPrimary      []string `json:"interests_primary_interests"`
+	InterestsSecondary    []string `json:"interests_secondary_interests"`
+	InterestsPreferred    []string `json:"interests_preferred_topics"`
+	InterestsDisliked     []string `json:"interests_disliked_topics"`
+	BackgroundHometown    string   `json:"background_hometown"`
+	BackgroundEducation   string   `json:"background_education_level"`
+	BackgroundValues      []string `json:"background_values"`
+	CommStyleFavorites    []string `json:"communication_style_favorite_words"`
+	CommStyleFormality    string   `json:"communication_style_formality_level"`
+	CommStyleConversation string   `json:"communication_style_conversation_tendency"`
+	SocialGroups          []string `json:"social_connections_groups"`
+	SocialFriendliness    string   `json:"social_connections_friendliness_rating"`
 }
 
 type UserFullProfileResponse struct {

@@ -1,15 +1,58 @@
 package db
 
+type NewUserFullProfile struct {
+	ExternalID         int64
+	Name               string
+	Info               string
+	Age                int
+	Occupation         string
+	Personality        Personality
+	Interests          Interests
+	Background         Background
+	CommunicationStyle CommunicationStyle
+	SocialConnections  SocialConnections
+}
+
 type UserFullProfile struct {
-	ID                 int    `json:"id"`
-	ExternalID         int64  `json:"external_id"`
-	Name               string `json:"name"`
-	Info               string `json:"info"`
-	Age                int    `json:"age"`
-	Occupation         string `json:"occupation"`
-	Personality        []byte `json:"personality"`
-	Interests          []byte `json:"interests"`
-	Background         []byte `json:"background"`
-	CommunicationStyle []byte `json:"communication_style"`
-	SocialConnections  []byte `json:"social_connections"` // JSONB as byte array
+	ID                 int
+	ExternalID         int64
+	Name               string
+	Info               string
+	Age                int
+	Occupation         string
+	Personality        Personality
+	Interests          Interests
+	Background         Background
+	CommunicationStyle CommunicationStyle
+	SocialConnections  SocialConnections
+}
+
+type Personality struct {
+	Type             string
+	HumorStyle       string
+	SocialPreference string
+}
+
+type Interests struct {
+	PrimaryInterests   []string
+	SecondaryInterests []string
+	PreferredTopics    []string
+	DislikedTopics     []string
+}
+
+type Background struct {
+	Hometown       string
+	EducationLevel string
+	Values         []string
+}
+
+type CommunicationStyle struct {
+	FavoriteWords        []string
+	FormalityLevel       string
+	ConversationTendency string
+}
+
+type SocialConnections struct {
+	Groups             []string
+	FriendlinessRating string
 }
