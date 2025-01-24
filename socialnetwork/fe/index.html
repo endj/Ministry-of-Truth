@@ -4,349 +4,67 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>User Profiles</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            li:hover {
+                background: yellow;
+            }
+            pre {
+                text-wrap: auto;
+            }
+        </style>
     </head>
-    <body style="display: flex">
-        <div style="width: 50%">
-            <div id="errorMessage" style="color: red; display: none">
-                <p id="errorText"></p>
+    <body>
+        <div style="display: flex; padding: 5px">
+            <ul id="profileListElement"></ul>
+            <div style="display: flex">
+                <pre style="width: 50%" id="profileInfo"></pre>
+                <pre style="width: 50%" id="traitsInfo"></pre>
             </div>
-
-            <h2>Create a New Profile</h2>
-
-            <label for="external_id">External ID:</label><br />
-            <input
-                type="number"
-                id="external_id"
-                value="123456789"
-                required
-            /><br /><br />
-
-            <label for="name">Name:</label><br />
-            <input
-                type="text"
-                id="name"
-                value="John Doe"
-                required
-            /><br /><br />
-
-            <label for="info">Info:</label><br />
-            <input
-                type="text"
-                id="info"
-                value="Lorem ipsum dolor sit amet."
-                required
-            /><br /><br />
-
-            <label for="age">Age:</label><br />
-            <input type="number" id="age" value="30" required /><br /><br />
-
-            <label for="occupation">Occupation:</label><br />
-            <input
-                type="text"
-                id="occupation"
-                value="Software Engineer"
-                required
-            /><br /><br />
-
-            <label for="personality_type">Personality Type:</label><br />
-            <input
-                type="text"
-                id="personality_type"
-                value="Introvert"
-                required
-            /><br /><br />
-
-            <label for="personality_humor_style">Personality Humor:</label
-            ><br />
-            <input
-                type="text"
-                id="personality_humor_style"
-                value="Dry"
-                required
-            /><br /><br />
-
-            <label for="personality_social_preference"
-                >Personality Social:</label
-            ><br />
-            <input
-                type="text"
-                id="personality_social_preference"
-                value="Selective"
-                required
-            /><br /><br />
-
-            <label for="interests_primary_interests">Interests Primary:</label
-            ><br />
-            <input
-                type="text"
-                id="interests_primary_interests"
-                value="Coding, Hiking"
-                required
-            /><br /><br />
-
-            <label for="interests_secondary_interests"
-                >Interests Secondary:</label
-            ><br />
-            <input
-                type="text"
-                id="interests_secondary_interests"
-                value="Reading, Music"
-                required
-            /><br /><br />
-
-            <label for="interests_preferred_topics">Interests Preferred:</label
-            ><br />
-            <input
-                type="text"
-                id="interests_preferred_topics"
-                value="Technology, Nature"
-                required
-            /><br /><br />
-
-            <label for="interests_disliked_topics">Interests Disliked:</label
-            ><br />
-            <input
-                type="text"
-                id="interests_disliked_topics"
-                value="Politics, Gossip"
-                required
-            /><br /><br />
-
-            <label for="background_hometown">Background Hometown:</label><br />
-            <input
-                type="text"
-                id="background_hometown"
-                value="Stockholm"
-                required
-            /><br /><br />
-
-            <label for="background_education_level"
-                >Background Education Level:</label
-            ><br />
-            <input
-                type="text"
-                id="background_education_level"
-                value="Bachelor's"
-                required
-            /><br /><br />
-
-            <label for="background_values">Background Values:</label><br />
-            <input
-                type="text"
-                id="background_values"
-                value="Honesty, Integrity"
-                required
-            /><br /><br />
-
-            <label for="communication_style_favorite_words"
-                >Comm Style Favorites:</label
-            ><br />
-            <input
-                type="text"
-                id="communication_style_favorite_words"
-                value="Efficiency, Clarity"
-                required
-            /><br /><br />
-
-            <label for="communication_style_formality_level"
-                >Comm Style Formality:</label
-            ><br />
-            <input
-                type="text"
-                id="communication_style_formality_level"
-                value="Moderate"
-                required
-            /><br /><br />
-
-            <label for="communication_style_conversation_tendency"
-                >Comm Style Conversation:</label
-            ><br />
-            <input
-                type="text"
-                id="communication_style_conversation_tendency"
-                value="To the point"
-                required
-            /><br /><br />
-
-            <label for="social_connections_groups">Social Groups:</label><br />
-            <input
-                type="text"
-                id="social_connections_groups"
-                value="Tech Enthusiasts, Hikers"
-                required
-            /><br /><br />
-
-            <label for="social_connections_friendliness_rating"
-                >Social Friendliness:</label
-            ><br />
-            <input
-                type="text"
-                id="social_connections_friendliness_rating"
-                value="Friendly"
-                required
-            /><br /><br />
-
-            <button id="createProfileBtn">Create Profile</button>
         </div>
+        <script defer>
+            const userData = new Map();
 
-        <div style="width: 50%">
-            <h2>List of User Profiles</h2>
-            <ul id="profilesList"></ul>
-        </div>
+            fetch("http://localhost:8080/profiles")
+                .then((r) => r.json())
+                .then((json) => {
+                    for (const p of json) {
+                        const traits = JSON.parse(p.traits);
+                        const profile = JSON.parse(p.profile);
 
-        <script>
-            async function fetchProfiles() {
-                try {
-                    document.getElementById("errorMessage").style.display =
-                        "none";
+                        const li = document.createElement("li");
+                        li.textContent = profile.name;
+                        profileListElement.appendChild(li);
 
-                    const response = await fetch(
-                        "http://localhost:8080/listProfiles",
-                        {
-                            method: "GET",
-                            headers: {
-                                "Content-Type": "application/json",
-                            },
-                        },
-                    );
-
-                    const data = await response.json();
-
-                    if (response.ok) {
-                        const profilesList =
-                            document.getElementById("profilesList");
-                        profilesList.innerHTML = "";
-
-                        data.forEach((profile) => {
-                            const li = document.createElement("li");
-                            const pre = document.createElement("pre");
-                            pre.textContent = JSON.stringify(profile, null, 2);
-                            li.appendChild(pre);
-                            profilesList.appendChild(li);
-                        });
-                    } else {
-                        throw new Error(
-                            data.error || "Error fetching profiles",
+                        li.onclick = () => {
+                            profileInfo.textContent = JSON.stringify(
+                                profile,
+                                null,
+                                2,
+                            );
+                            traitsInfo.textContent = JSON.stringify(
+                                traits,
+                                null,
+                                2,
+                            );
+                        };
+                        /*
+                        profileElement.textContent += JSON.stringify(
+                            traits,
+                            null,
+                            2,
                         );
+                        traitsElement.textContent += JSON.stringify(
+                            profile,
+                            null,
+                            2,
+                        );*/
                     }
-                } catch (error) {
-                    document.getElementById("errorMessage").style.display =
-                        "block";
-                    document.getElementById("errorText").textContent =
-                        error.message;
-                }
-            }
-
-            async function createProfile() {
-                const profileData = {};
-
-                profileData.external_id = parseInt(
-                    document.querySelector("#external_id").value,
-                    10,
-                );
-                profileData.name = document.querySelector("#name").value;
-                profileData.info = document.querySelector("#info").value;
-                profileData.age = parseInt(
-                    document.querySelector("#age").value,
-                    10,
-                );
-                profileData.occupation =
-                    document.querySelector("#occupation").value;
-                profileData.personality_type =
-                    document.querySelector("#personality_type").value;
-                profileData.personality_humor_style = document.querySelector(
-                    "#personality_humor_style",
-                ).value;
-                profileData.personality_social_preference =
-                    document.querySelector(
-                        "#personality_social_preference",
-                    ).value;
-
-                // Handle array fields by splitting strings and trimming spaces
-                profileData.interests_primary_interests = document
-                    .querySelector("#interests_primary_interests")
-                    .value.split(",")
-                    .map((item) => item.trim());
-                profileData.interests_secondary_interests = document
-                    .querySelector("#interests_secondary_interests")
-                    .value.split(",")
-                    .map((item) => item.trim());
-                profileData.interests_preferred_topics = document
-                    .querySelector("#interests_preferred_topics")
-                    .value.split(",")
-                    .map((item) => item.trim());
-                profileData.interests_disliked_topics = document
-                    .querySelector("#interests_disliked_topics")
-                    .value.split(",")
-                    .map((item) => item.trim());
-
-                profileData.background_hometown = document.querySelector(
-                    "#background_hometown",
-                ).value;
-                profileData.background_education_level = document.querySelector(
-                    "#background_education_level",
-                ).value;
-                profileData.background_values = document
-                    .querySelector("#background_values")
-                    .value.split(",")
-                    .map((item) => item.trim());
-                profileData.communication_style_favorite_words = document
-                    .querySelector("#communication_style_favorite_words")
-                    .value.split(",")
-                    .map((item) => item.trim());
-                profileData.communication_style_formality_level =
-                    document.querySelector(
-                        "#communication_style_formality_level",
-                    ).value;
-                profileData.communication_style_conversation_tendency =
-                    document.querySelector(
-                        "#communication_style_conversation_tendency",
-                    ).value;
-                profileData.social_connections_groups = document
-                    .querySelector("#social_connections_groups")
-                    .value.split(",")
-                    .map((item) => item.trim());
-                profileData.social_connections_friendliness_rating =
-                    document.querySelector(
-                        "#social_connections_friendliness_rating",
-                    ).value;
-
-                try {
-                    const response = await fetch(
-                        "http://localhost:8080/createProfile",
-                        {
-                            method: "POST",
-                            headers: {
-                                "Content-Type": "application/json",
-                            },
-                            body: JSON.stringify(profileData),
-                        },
-                    );
-
-                    const result = await response.json();
-
-                    if (response.ok) {
-                        alert("Profile created");
-                        fetchProfiles();
-                    } else {
-                        throw new Error(
-                            result.error || "Error creating profile",
-                        );
-                    }
-                } catch (error) {
-                    document.getElementById("errorMessage").style.display =
-                        "block";
-                    document.getElementById("errorText").textContent =
-                        error.message;
-                }
-            }
-
-            document.addEventListener("DOMContentLoaded", () => {
-                fetchProfiles();
-                document
-                    .getElementById("createProfileBtn")
-                    .addEventListener("click", createProfile);
-            });
+                    console.log(userData);
+                });
         </script>
     </body>
 </html>
