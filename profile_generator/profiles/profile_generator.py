@@ -7,7 +7,6 @@ import http.client
 import os
 
 
-GENERATED_PROFILES_FOLDER =  "generated_profiles"
 
 @dataclass
 class PromptResponse:
@@ -35,26 +34,23 @@ class GeneratedProfile:
     info: str
 
 def try_parse(response: str) -> Union[GeneratedProfile, None]:
-    # Find the position of the profile part
+    # Expects format name=<name>,profile=<profile>
     name_end = response.find(",profile=")
 
     if name_end == -1:
         print("Failed to find profile in response:", response)
         return None
 
-    # Extract name part
+    # name=<name>, profile=<profile>
     name_part = response[:name_end]
     profile_part = response[name_end + len(",profile="):]
 
-    # Extract name (after 'name=')
     if not name_part.startswith("name="):
         print("Invalid format for name:", name_part)
         return None
     name = name_part[len("name="):]
 
-    # Remove any quotes from the profile part
     profile = profile_part.replace('"', '')  # Remove all quotes from profile
-
     return GeneratedProfile(name, profile)
 
 
@@ -139,7 +135,7 @@ def generate_profiles():
 
         id = hash((outcome.info, outcome.name))
         folder_name = str(abs(id))
-        folder_path = f'{GENERATED_PROFILES_FOLDER}/{folder_name}'
+        folder_path = f'generated_profiles/{folder_name}'
         os.mkdir(folder_path)
         with open(f'{folder_path}/profile.json', "w+") as f:
             json.dump(asdict(outcome), f, indent=2)
@@ -148,4 +144,5 @@ def generate_profiles():
         with open(profiles_file, "w") as f:
             json.dump(profiles, f, indent=2)
 
-generate_profiles()
+if __name__ == "__main__":
+    generate_profiles()

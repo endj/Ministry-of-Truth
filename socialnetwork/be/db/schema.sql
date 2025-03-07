@@ -3,3 +3,11 @@ CREATE TABLE IF NOT EXISTS user_profiles (
     traits TEXT NOT NULL,
     profile TEXT NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS user_posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    created_at INTEGER NOT NULL,
+    thread_id TEXT NOT NULL,
+    user_id INTEGER NOT NULL,
+    content TEXT NOT NULL
+);

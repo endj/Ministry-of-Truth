@@ -1,13 +1,23 @@
 # Generating Profiles
 
+## Profiles
+
+Scripts for generating templates ( bunch of traits ) and profiles from templates.
+
+## Picture ( TODO )
+
+Generating pictures from a user profile
+
+## Threads
+
+Scripts for generating payloads for topics, creating and replying to posts
+
 ## TODO
 
 * Move config.json up
 * Add probability distributions to traits
 * Move to new LLM model
 * Find scriptable picture Model
-
-
 
 Two step process:
 

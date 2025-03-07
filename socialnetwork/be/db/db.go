@@ -2,8 +2,8 @@ package db
 
 import (
 	"database/sql"
-	"io/ioutil"
 	"log"
+	"os"
 	"strings"
 
 	_ "github.com/mattn/go-sqlite3" // SQLite driver
@@ -20,16 +20,13 @@ func InitializeDB(dataSourceName string, schemaFile string) *sql.DB {
 	if _, err := db.Exec("SELECT 1"); err != nil {
 		log.Fatalf("Error testing database connection: %v", err)
 	}
-
-	// Apply schema from the provided schema file
 	applySchema(db, schemaFile)
-
 	return db
 }
 
 func applySchema(db *sql.DB, schemaFile string) {
 	log.Println("Applying schema from", schemaFile)
-	data, err := ioutil.ReadFile(schemaFile)
+	data, err := os.ReadFile(schemaFile)
 	if err != nil {
 		log.Fatalf("Error reading schema file: %v", err)
 	}

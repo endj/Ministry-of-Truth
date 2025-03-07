@@ -3,6 +3,7 @@ package db
 import (
 	"database/sql"
 	"fmt"
+	"log"
 
 	_ "github.com/lib/pq"
 )
@@ -11,18 +12,11 @@ type UserRepo struct {
 	DB *sql.DB
 }
 
-type UserRepository interface {
-	QueryProfiles() ([]UserProfile, error)
-	CreateProfile(profileRequest UserProfileRequest) (UserProfile, error)
-}
-
-const FULL_PROFILE_QUERY = `
+func (u UserRepo) QueryProfiles() ([]UserProfile, error) {
+	rows, err := u.DB.Query(`
     SELECT *
     FROM user_profiles
-`
-
-func (u UserRepo) QueryProfiles() ([]UserProfile, error) {
-	rows, err := u.DB.Query(FULL_PROFILE_QUERY)
+    `)
 
 	if err != nil {
 		return nil, fmt.Errorf("failed to query full user profiles: %w", err)
@@ -38,23 +32,22 @@ func (u UserRepo) QueryProfiles() ([]UserProfile, error) {
 			&profile.Traits,
 			&profile.Profile,
 		)
-		fmt.Print("LOADED PROFILE", profile.Profile)
 		if err != nil {
-			return nil, fmt.Errorf("Error scanning row: %v", err)
+			return nil, fmt.Errorf("error scanning row: %v", err)
 		}
 		profiles = append(profiles, profile)
 	}
 
 	if err := rows.Err(); err != nil {
-		return nil, fmt.Errorf("Error iterating over rows: %v", err)
+		return nil, fmt.Errorf("error iterating over rows: %v", err)
 	}
 	return profiles, nil
 }
 
-func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (UserProfile, error) {
+func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (*UserProfile, error) {
 	tx, err := u.DB.Begin()
 	if err != nil {
-		return UserProfile{}, fmt.Errorf("Error starting transaction: %v", err)
+		return nil, fmt.Errorf("error starting transaction: %v", err)
 	}
 	defer func() {
 		if err != nil {
@@ -62,7 +55,7 @@ func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (UserProfile,
 		}
 	}()
 
-	fmt.Println("SAVING ", profileRequest)
+	log.Println("Creating profile: ", profileRequest)
 
 	var userProfileID int
 	err = tx.QueryRow(
@@ -71,11 +64,11 @@ func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (UserProfile,
 		profileRequest.Profile,
 	).Scan(&userProfileID)
 	if err != nil {
-		return UserProfile{}, fmt.Errorf("Error inserting into user_profile: %v", err)
+		return nil, fmt.Errorf("error inserting into user_profile: %v", err)
 	}
 
 	if err := tx.Commit(); err != nil {
-		return UserProfile{}, fmt.Errorf("Error committing transaction: %v", err)
+		return nil, fmt.Errorf("error committing transaction: %v", err)
 	}
 
 	profileResponse := UserProfile{
@@ -84,5 +77,5 @@ func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (UserProfile,
 		Profile: profileRequest.Profile,
 	}
 
-	return profileResponse, nil
+	return &profileResponse, nil
 }

@@ -87,8 +87,10 @@ def generate_profiles():
     )
     profiles = generate_random_profiles(config)
     profiles_dict = [asdict(p) for p in profiles]
-    with open("generated_templates.json", "w") as f:
+    with open("generated_templates/templates.json", "w") as f:
         json.dump(profiles_dict, f, indent=2)
-    print(f'Wrote {len(profiles)} profiles to generated_templates.json')
+    print(f'Wrote {len(profiles)} profiles to generated_templates/templates.json')
 
-generate_profiles()
+if __name__ == "__main__":
+    generate_profiles()
+
