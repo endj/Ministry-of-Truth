@@ -1,6 +1,6 @@
-import sys, os, json, typing
-from typing import Tuple, List, Any
-from dataclasses import dataclass, Field, asdict
+import sys, os, json
+from typing import List
+from dataclasses import asdict
 from random import choice, randint, sample
 from common import Config,Profile,ProfilePersonality, ProfileInterests, ProfileBackground, ProfileCommunicationStyle, ProfileSocialConnections,ConfigMetadata, ConfigTraits, ConfigSocial, ConfigInterests, ConfigBackground, ConfigCommunication, ConfigPersonality, ConfigDemographics
 from common import exit, read_conf

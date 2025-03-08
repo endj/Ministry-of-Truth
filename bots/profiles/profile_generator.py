@@ -1,32 +1,10 @@
 from dataclasses import dataclass, asdict
 import sys, json
-from typing import Tuple, List, Any, Union
+from typing import Any, Union
 from common import Profile, ProfilePersonality, ProfileInterests, ProfileBackground, ProfileCommunicationStyle, ProfileSocialConnections
 from common import exit, read_conf
-import http.client
 import os
-
-
-
-@dataclass
-class PromptResponse:
-    model: str
-    created_at: str
-    response: str
-    done: bool
-    done_reason: str
-    context: List[int]
-    total_duration: int
-    load_duration: int
-    prompt_eval_count: int
-    prompt_eval_duration: int
-    eval_count: int
-    eval_duration: int
-
-@dataclass
-class Prompt:
-    prompt: str
-    model: str  = "llama3.2"
+from bots.prompter import Prompt, prompt
 
 @dataclass
 class GeneratedProfile:
@@ -65,28 +43,6 @@ def profile_from_dict(profile_data: Any) -> Profile:
         communication_style=ProfileCommunicationStyle(**profile_data["communication_style"]),
         social_connections=ProfileSocialConnections(**profile_data["social_connections"])
     )
-
-
-def prompt(prompt: Prompt) -> PromptResponse:
-    body = json.dumps({
-        "model": prompt.model,
-        "prompt": prompt.prompt,
-        "stream": False
-    })
-
-    conn = http.client.HTTPConnection("localhost", 11434)
-    conn.request("POST", "/api/generate", body, {"Content-Type": "application/json"})
-
-    response = conn.getresponse()
-    response_data = response.read()
-    response_body = response_data.decode()
-
-    conn.close()
-
-    return PromptResponse(
-        **json.loads(response_body)
-    )
-
 
 def generate_prompt(profile_data: Any):
     prompt = f'''

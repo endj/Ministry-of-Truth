@@ -60,7 +60,9 @@ func toPostResponse(post *db.Post) Post {
 		Id:        post.ID,
 		CreatedAt: post.CreatedAt,
 		AuthordId: post.AuthordId,
+		Author:    post.Author,
 		ThreadId:  post.ThreadId,
+		OP:        post.OP,
 		Content:   post.Content,
 	}
 }

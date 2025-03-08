@@ -1,6 +1,7 @@
 curl -X POST http://localhost:8080/profiles \
      -H "Content-Type: application/json" \
      -d '{
+       "name": "Aurore",
        "profile": {
          "name": "Aurore",
          "info": "Adventurous engineer by day, art enthusiast & history buff. | Traveling, reading & philosophy fan | Silly humor alert! | Lets discuss science fiction and challenging conversations"

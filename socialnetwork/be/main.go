@@ -35,6 +35,8 @@ func (a *App) profilesHandler(w http.ResponseWriter, r *http.Request) {
 func (a *App) postsHandler(w http.ResponseWriter, r *http.Request) {
 	setCommonHeaders(w)
 	switch r.Method {
+	case http.MethodOptions:
+		w.WriteHeader(http.StatusOK)
 	case http.MethodGet:
 		handlers.GetPostsHandler(w, r, a.postRepo)
 	case http.MethodPost:

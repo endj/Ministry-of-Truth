@@ -15,8 +15,17 @@ type PostRepo struct {
 
 func (u PostRepo) QueryPosts() ([]Post, error) {
 	rows, err := u.DB.Query(`
-	SELECT *
-	FROM user_posts
+	SELECT 
+    user_posts.id AS post_id,
+    user_posts.created_at as timestamp,
+    user_posts.thread_id,
+    user_posts.user_id,
+    user_profiles.name AS author_name,
+	user_posts.op,
+    user_posts.content
+    FROM user_posts
+    JOIN user_profiles ON user_posts.user_id = user_profiles.id
+	ORDER BY timestamp DESC;
 	`)
 	if err != nil {
 		return nil, fmt.Errorf("failed to query user posts: %w", err)
@@ -32,6 +41,8 @@ func (u PostRepo) QueryPosts() ([]Post, error) {
 			&post.CreatedAt,
 			&post.ThreadId,
 			&post.AuthordId,
+			&post.Author,
+			&post.OP,
 			&post.Content,
 		)
 		if err != nil {
@@ -57,16 +68,17 @@ func (u PostRepo) CreatePost(post PostRequest) (*Post, error) {
 	}()
 	log.Println("Creating post: ", post)
 
-	if post.ThreadId == "" {
+	var openingPost = post.ThreadId == ""
+	if openingPost {
 		post.ThreadId = hashUniqueID()
 	}
 
 	var createdAt = time.Now().UnixMilli()
 	var postId int
 	err = tx.QueryRow(
-		`INSERT INTO user_posts (user_id, created_at, thread_id, content)
-		 VALUES ($1, $2, $3, $4) RETURNING id
-		`, post.AuthordId, createdAt, post.ThreadId, post.Content,
+		`INSERT INTO user_posts (user_id, created_at, thread_id, content, op)
+		 VALUES ($1, $2, $3, $4, $5) RETURNING id
+		`, post.AuthordId, createdAt, post.ThreadId, post.Content, boolToInt(openingPost),
 	).Scan(&postId)
 
 	if err != nil {
@@ -82,9 +94,16 @@ func (u PostRepo) CreatePost(post PostRequest) (*Post, error) {
 		AuthordId: post.AuthordId,
 		ThreadId:  post.ThreadId,
 		Content:   post.Content,
+		OP:        boolToInt(openingPost),
 	}
-	log.Println("REturning", postResponse)
 	return &postResponse, nil
+}
+
+func boolToInt(b bool) int {
+	if b {
+		return 1
+	}
+	return 0
 }
 
 func hashUniqueID() string {

@@ -29,6 +29,7 @@ func (u UserRepo) QueryProfiles() ([]UserProfile, error) {
 
 		err := rows.Scan(
 			&profile.ID,
+			&profile.Name,
 			&profile.Traits,
 			&profile.Profile,
 		)
@@ -59,7 +60,8 @@ func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (*UserProfile
 
 	var userProfileID int
 	err = tx.QueryRow(
-		"INSERT INTO user_profiles (traits, profile) VALUES ($1, $2) RETURNING id",
+		"INSERT INTO user_profiles (name, traits, profile) VALUES ($1, $2, $3) RETURNING id",
+		profileRequest.Name,
 		profileRequest.Traits,
 		profileRequest.Profile,
 	).Scan(&userProfileID)
@@ -73,6 +75,7 @@ func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (*UserProfile
 
 	profileResponse := UserProfile{
 		ID:      userProfileID,
+		Name:    profileRequest.Name,
 		Traits:  profileRequest.Traits,
 		Profile: profileRequest.Profile,
 	}

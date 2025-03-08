@@ -2,11 +2,13 @@ package db
 
 type UserProfile struct {
 	ID      int
+	Name    string
 	Traits  string
 	Profile string
 }
 
 type UserProfileRequest struct {
+	Name    string
 	Traits  string
 	Profile string
 }
@@ -16,6 +18,8 @@ type Post struct {
 	CreatedAt int64
 	ThreadId  string
 	AuthordId int
+	Author    string
+	OP        int
 	Content   string
 }
 

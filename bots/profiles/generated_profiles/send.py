@@ -8,8 +8,8 @@ def process_folder(folder_path):
         with open(os.path.join(folder_path, "template.json"), "r") as f:
             traits = json.load(f)
         with open(os.path.join(folder_path, "profile.json"), "r") as f:
-            profiles = json.load(f)
-        return {"traits": traits, "profile": profiles}
+            profile = json.load(f)
+        return {"name": profile["name"], "traits": traits, "profile": profile}
     except FileNotFoundError as e:
         print(f"Error: {e}. Skipping folder: {folder_path}")
         return None

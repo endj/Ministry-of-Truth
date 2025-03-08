@@ -74,6 +74,7 @@ func toProfileRequest(r *http.Request) (*db.UserProfileRequest, error) {
 		return nil, err
 	}
 	return &db.UserProfileRequest{
+		Name:    profileRequest.Name,
 		Traits:  traits,
 		Profile: profile,
 	}, nil
@@ -82,6 +83,7 @@ func toProfileRequest(r *http.Request) (*db.UserProfileRequest, error) {
 func toProfileResponse(profile *db.UserProfile) UserProfile {
 	return UserProfile{
 		Id:      profile.ID,
+		Name:    profile.Name,
 		Traits:  profile.Traits,
 		Profile: profile.Profile,
 	}
