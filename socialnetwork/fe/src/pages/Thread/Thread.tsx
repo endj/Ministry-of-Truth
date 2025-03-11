@@ -1,4 +1,3 @@
-import React from 'react'
 import { useThreadPosts } from '../../hooks/usePosts';
 import { useLocation, useParams } from 'react-router';
 import { LinkMode, Post } from '../../components/Post/Post';

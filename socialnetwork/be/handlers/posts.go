@@ -15,9 +15,9 @@ func GetPostsHandler(w http.ResponseWriter, r *http.Request, repo db.PostRepo) {
 		return
 	}
 
-	var responsePosts []Post = make([]Post, 0)
-	for _, post := range posts {
-		responsePosts = append(responsePosts, toPostResponse(&post))
+	var responsePosts []Post = make([]Post, len(posts))
+	for i, post := range posts {
+		responsePosts[i] = toPostResponse(&post)
 	}
 	if err := json.NewEncoder(w).Encode(responsePosts); err != nil {
 		http.Error(w, fmt.Sprintf("error encoding response: %v", err), http.StatusInternalServerError)

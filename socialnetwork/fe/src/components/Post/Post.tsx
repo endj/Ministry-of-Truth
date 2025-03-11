@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { IPost } from '../../hooks/usePosts'
 import style from './post.module.css'
 import { Separator } from '../Seperator/Separator'

@@ -1,6 +1,4 @@
-import React from 'react'
 import { IProfile } from '../hooks/useProfiles'
-import { NavLink } from 'react-router'
 import { Avatar } from './Avatar/Avatar'
 import { LinkMode, Post } from './Post/Post'
 import { useUserPosts } from '../hooks/usePosts'

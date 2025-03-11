@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { usePosting } from '../../hooks/useReply';
 import { useUser } from '../../hooks/useUser';
 import style from "./threadcreator.module.css"
@@ -11,7 +11,7 @@ export const ThreadCreator = () => {
     const handleKeyDown = (event: { key: string }) => {
         if (event.key === 'Enter') {
             if (input.trim() && user) {
-                createThread(user, input, res => console.log("Created Thread"))
+                createThread(user, input, _ => console.log("Created Thread"))
                 setInput('');
             }
         }

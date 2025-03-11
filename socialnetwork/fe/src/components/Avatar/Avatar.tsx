@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './avatar.module.css'
 
 export const Avatar = ({ author, side = 45 }: { author: string, side?: number }) => {

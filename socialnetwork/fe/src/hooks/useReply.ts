@@ -1,4 +1,3 @@
-import React from 'react'
 import { IPost } from './usePosts'
 import { IProfile } from './useProfiles'
 

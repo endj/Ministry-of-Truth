@@ -17,23 +17,16 @@ func (u UserRepo) QueryProfiles() ([]UserProfile, error) {
     SELECT *
     FROM user_profiles
     `)
-
 	if err != nil {
 		return nil, fmt.Errorf("failed to query full user profiles: %w", err)
 	}
+
 	defer rows.Close()
 
 	var profiles []UserProfile = make([]UserProfile, 0)
 	for rows.Next() {
 		var profile UserProfile
-
-		err := rows.Scan(
-			&profile.ID,
-			&profile.Name,
-			&profile.Traits,
-			&profile.Profile,
-		)
-		if err != nil {
+		if err := rows.Scan(&profile.ID, &profile.Name, &profile.Traits, &profile.Profile); err != nil {
 			return nil, fmt.Errorf("error scanning row: %v", err)
 		}
 		profiles = append(profiles, profile)
@@ -59,13 +52,9 @@ func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (*UserProfile
 	log.Println("Creating profile: ", profileRequest)
 
 	var userProfileID int
-	err = tx.QueryRow(
+	if err := tx.QueryRow(
 		"INSERT INTO user_profiles (name, traits, profile) VALUES ($1, $2, $3) RETURNING id",
-		profileRequest.Name,
-		profileRequest.Traits,
-		profileRequest.Profile,
-	).Scan(&userProfileID)
-	if err != nil {
+		profileRequest.Name, profileRequest.Traits, profileRequest.Profile).Scan(&userProfileID); err != nil {
 		return nil, fmt.Errorf("error inserting into user_profile: %v", err)
 	}
 
@@ -73,12 +62,10 @@ func (u UserRepo) CreateProfile(profileRequest UserProfileRequest) (*UserProfile
 		return nil, fmt.Errorf("error committing transaction: %v", err)
 	}
 
-	profileResponse := UserProfile{
+	return &UserProfile{
 		ID:      userProfileID,
 		Name:    profileRequest.Name,
 		Traits:  profileRequest.Traits,
 		Profile: profileRequest.Profile,
-	}
-
-	return &profileResponse, nil
+	}, nil
 }

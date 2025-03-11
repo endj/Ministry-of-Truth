@@ -1,5 +1,3 @@
-import React from 'react'
-import { Profile } from '../../components/Profile'
 import styles from './profiles.module.css'
 import { useProfiles } from '../../hooks/useProfiles'
 import { NavLink } from 'react-router'

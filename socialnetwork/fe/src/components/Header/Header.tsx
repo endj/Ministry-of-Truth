@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router'
 import style from "./header.module.css"
 import { useUser } from '../../hooks/useUser'

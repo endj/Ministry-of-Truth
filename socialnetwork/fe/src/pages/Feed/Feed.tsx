@@ -5,9 +5,6 @@ import { LinkMode, Post } from '../../components/Post/Post'
 import { Separator } from '../../components/Seperator/Separator'
 import { useThreads } from '../../hooks/usePosts'
 
-
-
-
 export const Feed = () => {
     const { threads, loading, error } = useThreads()
     const { hash } = useLocation();
