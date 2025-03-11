@@ -1,4 +1,3 @@
-import os
 import random
 import sys
 from time import sleep
@@ -35,35 +34,27 @@ class Post:
     author: str
 
 def send_tweet(tweet: Tweet, threadId: Union[str, None]):
+    print("Sending tweet from ", tweet.id)
     try:
-        print("Sending tweet from ", tweet.id)
-        req = {
-            "authorId": tweet.id,
-            "content": tweet.message
-        }
-        if threadId is not None:
-            req["threadId"] = threadId
+        req = { "authorId": tweet.id, "content": tweet.message }
+        if threadId: req["threadId"] = threadId
         body = json.dumps(req, ensure_ascii=False).encode("utf-8")
         headers = {'Content-Type': 'application/json'}
-        req = urllib.request.Request(
-                "http://localhost:8080/posts",
-                data=body,
-                headers=headers,
-                method="POST"
-                )
+        req = urllib.request.Request("http://localhost:8080/posts", data=body, headers=headers, method="POST")
+        
         with urllib.request.urlopen(req) as response:
-            result = response.read().decode("utf-8")
+            return response.read().decode("utf-8")
     except Exception as e:
-        print(f"Error sending request: {body}. Error: {e}")
+        print(f"Error sending tweet: {body}. Error: {e}")
 
 
-def trySerialize(user_id: str, response: PromptResponse) -> Tweet:
+def to_tweet(user_id: str, response: PromptResponse) -> Tweet:
     try:
         return Tweet(user_id, response.response)
     except Exception as e:
         print(f"Failed serializing response: {e}")    
 
-def get_json(url: str):
+def fetch_json(url: str):
     try:
         with urllib.request.urlopen(urllib.request.Request(url)) as response:
             return json.loads(response.read().decode('utf-8'))
@@ -71,28 +62,21 @@ def get_json(url: str):
         print(f"Error: {e}")    
 
 def get_users() -> List[UserDescription]:
-    return list(map(to_user, get_json('http://localhost:8080/profiles')))
+    return [to_user(u) for u in fetch_json('http://localhost:8080/profiles')]
 
 def get_posts() -> List[Post]:
-    return list(map(to_post, get_json('http://localhost:8080/posts')))
+    return [to_post(p) for p in fetch_json('http://localhost:8080/posts')]
 
 def post(post_id: str) -> Union[None, Post]:
     for p in get_posts():
         if p.postId == post_id: return p
     return None
 
-def user(user_id: str) -> Union[None, UserDescription]:
-    for user in get_users():
-        if user.id == user_id: return to_user(user)
-    return None
+def get_user(user_id: str) -> Union[None, UserDescription]:
+    return next((u for u in get_users() if u.id == user_id), None)
 
-def to_user(user_json: Dict[str, Any]) -> UserDescription:
-    return UserDescription(
-                user_json["id"],
-                user_json["name"],
-                user_json["traits"],
-                user_json["profile"]
-            )
+def to_user(ujson: Dict[str, Any]) -> UserDescription:
+    return UserDescription(ujson["id"], ujson["name"], ujson["traits"], ujson["profile"])
 
 def to_post(post_json: Dict[str, any]) -> Post:
     return Post(
@@ -114,19 +98,16 @@ def user_ids():
 
 def run_autopilot():
     users = get_users()
-    if len(users) == 0:
-        raise Exception("Users empty")
+    if not users: raise Exception("Users empty")
+    
     while True:
         user = random.choice(users)
-        available_posts = get_posts()
-        if len(available_posts) == 0:
+        posts = get_posts()
+        if not posts:
             tweet(user, None)
         else:
-            random_post = random.choice(available_posts)
-            if random.random() > 0.2:
-                reply(user, random_post, None)
-            else:
-                tweet(user, None)
+            post = random.choice(posts)
+            reply(user, post) if random.random() > 0.2 else tweet(user, None)
         sleep(5)
 
 
@@ -153,7 +134,7 @@ def reply(user: UserDescription, post: Post, propaganda: Union[None, str]):
         ONLY output the tweet and nothing else
         """)
     response = prompt(promptRequest)
-    tweet = trySerialize(user.id, response)
+    tweet = to_tweet(user.id, response)
     send_tweet(tweet, threadId=post.threadId)
 
 def tweet(user: UserDescription, propaganda: Union[str, None]):
@@ -184,7 +165,7 @@ def tweet(user: UserDescription, propaganda: Union[str, None]):
     except Exception as e:
         print("Failed to prooompt, is LLM running?")
         sys.exit(1)
-    tweet = trySerialize(user.id, response)
+    tweet = to_tweet(user.id, response)
     send_tweet(tweet, None)
 
 
@@ -209,8 +190,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.command == "tweet":
-        user_desc = user(args.user)
-        if user_desc is not None:
+        user_desc = get_user(args.user)
+        if user_desc:
             tweet(user_desc, args.propaganda)
     elif args.command == "list":
         print(user_ids())
@@ -218,7 +199,7 @@ if __name__ == "__main__":
         print(get_posts())
     elif args.command == "reply":
         for user_id in args.users.split(","):
-            user_desc = user(user_id)
+            user_desc = get_user(user_id)
             msg = post(args.post)
             if user_desc is not None and msg is not None:
                 reply(user_desc, msg, args.propaganda) 
