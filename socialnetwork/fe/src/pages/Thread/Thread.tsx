@@ -24,7 +24,7 @@ export const Thread = () => {
                 .map(post => <Post
                     key={post.id}
                     post={post}
-                    link={LinkMode.LINK_THREAD}
+                    link={LinkMode.NONE}
                     reply={post.id === Number.parseInt(linkedPost) && Boolean(user?.id)}
                 />)}
         </>

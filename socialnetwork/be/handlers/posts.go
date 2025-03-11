@@ -44,8 +44,9 @@ func CreatePostHandler(w http.ResponseWriter, r *http.Request, repo db.PostRepo)
 
 func toPostRequest(r *http.Request) (*db.PostRequest, error) {
 	var postRequest PostRequest
+
 	if err := json.NewDecoder(r.Body).Decode(&postRequest); err != nil {
-		log.Println("Failed to decode body")
+		log.Println("Failed to decode body", err.Error())
 		return nil, fmt.Errorf("invalid JSON payload: " + err.Error())
 	}
 	return &db.PostRequest{
